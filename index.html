@@ -11,24 +11,10 @@
       title="Renato Brito Web Developer"
       content="Desenvolvedor web, Betim, Contagem, Belo Horizonte, Minas Gerais"
     />
-    <title>Renato Brito / Web Developer</title>
     <!-- STYLE -->
     <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
-    <!-- COMPONENTS -->
-    <link rel="stylesheet" href="assets/css/components/breakpoints.css" />
-    <link rel="stylesheet" href="assets/css/components/main-header.css" />
-    <link rel="stylesheet" href="assets/css/components/main-action.css" />
-    <link rel="stylesheet" href="assets/css/components/main-banner.css" />
-    <link rel="stylesheet" href="assets/css/components/main-box.css" />
-    <link rel="stylesheet" href="assets/css/components/main-title.css" />
-    <link rel="stylesheet" href="assets/css/components/main-subtitle.css" />
-    <link rel="stylesheet" href="assets/css/components/main-description.css" />
-    <link rel="stylesheet" href="assets/css/components/main-button.css" />
-    <link rel="stylesheet" href="assets/css/components/main-section.css" />
-    <link rel="stylesheet" href="assets/css/components/main-about.css" />
-    <link rel="stylesheet" href="assets/css/components/main-skills.css" />
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,199 +30,233 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- COMPONENTS -->
+    <link rel="stylesheet" href="assets/css/components/breakpoints.css" />
+    <link rel="stylesheet" href="assets/css/components/flex-layout.css" />
+    <link rel="stylesheet" href="assets/css/components/menu.css" />
+    <link rel="stylesheet" href="assets/css/components/home.css" />
+    <link rel="stylesheet" href="assets/css/components/about.css" />
+    <link rel="stylesheet" href="assets/css/components/skills.css" />
+    <link rel="stylesheet" href="assets/css/components/projects.css" />
+    <title>Renato Brito / Web Developer</title>
   </head>
   <body>
-    <header class="main-header">
-      <img src="assets/images/icon_code.svg" alt="Logo do site" width="50" />
-
-      <!-- <a href=""><i class="fa-solid fa-bars"></i></a> -->
-
-      <nav class="menu">
-        <ul>
-          <a class="main-action" href="#about">About</a>
-          <a class="main-action" href="#skills">Skills</a>
-          <a class="main-action" href="#projects">Projects</a>
-          <a class="main-action" href="#contact">Contact</a>
-          <a class="main-action" href="#certificates">Certificates</a>
-        </ul>
-      </nav>
+    <header>
+      <div class="flex-layout">
+        <nav>
+          <img src="assets/images/code.png" alt="Logo do site" />
+          <!-- <div class="mobile-menu"></div> -->
+          <ul class="nav-list">
+            <li>
+              <a href="#s-about">About</a>
+            </li>
+            <li>
+              <a href="#s-skills">Skills</a>
+            </li>
+            <li>
+              <a href="#s-projects">Projects</a>
+            </li>
+            <li>
+              <a href="#s-certificates">Certificates</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <!-- <section class="main-banner">
-        <div class="wrapper">
-          <div class="main-box">
-            <h1 class="main-title">Renato <span>Brito</span></h1>
-            <h2 class="main-subtitle">Betim City · Minas Gerais</h2>
-            <p class="main-description">
-              Amante da tecnologia e desenvolvimento web, busco projetos que me
-              permitam contribuir positivamente para a comunidade.
-            </p>
+      <!-- <section id="s-home">
+        <div class="flex-layout">
+          <div class="home">
+            <div class="home-container-text">
+              <h1>
+                Amante da tecnologia e desenvolvimento web, busco projetos que
+                me permitam contribuir positivamente para a
+                <span>comunidade</span>.
+              </h1>
+            </div>
+
+            <nav>
+              <ul class="social-nav-list">
+                <li>
+                  <a href="https://github.com/rbdev92" target="_blank"
+                    ><i class="fa-brands fa-github" title="Github"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/rbdev92" target="_blank"
+                    ><i class="fa-brands fa-instagram" title="Instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/renatobrito92/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin" title="Linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </nav>
           </div>
-
-          <div class="navigation">
-            <a
-              href="https://github.com/rbdev92"
-              target="_blank"
-              class="main-button"
-              ><i class="fa-brands fa-github" title="Github"></i
-            ></a>
-            <a
-              href="https://instagram.com/rbdev92"
-              target="_blank"
-              class="main-button"
-              ><i class="fa-brands fa-instagram" title="Instagram"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/renatobrito92/"
-              target="_blank"
-              class="main-button"
-              ><i class="fa-brands fa-linkedin" title="Linkedin"></i
-            ></a>
-          </div>
-        </div>
-      </section> -->
-
-      <!-- <section id="about" class="main-section">
-        <h2>About</h2>
-
-        <div class="main-about">
-          <div class="avatar">
-            <img
-              src="assets/images/renato.jpg"
-              alt="Foto de perfil de Renato Brito"
-              width="250"
-            />
-          </div>
-          <div class="presentation">
-            <p>
-              Nascido em Salvador, meu primeiro contato com programação foi
-              através do banco de dados relacional <strong>MySQL</strong> em
-              2013. Infelizmente, não pude dar continuidade aos estudos na
-              época, devido a questões pessoais. Em 2019, ingressei na faculdade
-              e conquistei uma vaga no curso de
-              <strong
-                >Tecnólogo em Análise e Desenvolvimento de Sistemas</strong
-              >
-              na <strong>Anhanguera</strong>. Avancei por três semestres, mas as
-              adversidades trazidas pela pandemia do
-              <em>COVID-19</em> resultaram em desemprego, impedindo-me de
-              concluir o curso. Atualmente, atuo como <em>autodidata</em>,
-              focando meus esforços no estudo de diversas linguagens e na
-              aplicação de <strong>ferramentas relevantes</strong> para o
-              <strong>Desenvolvimento Web</strong>. Estou comprometido em
-              aprimorar minhas habilidades e superar os desafios para alcançar
-              meus objetivos na área.
-            </p>
-          </div>
-        </div>
-      </section> -->
-
-      <!-- <section id="skills" class="main-section">
-        <h2>Skills</h2>
-        <div class="main-skills">
-          <div class="main-list">
-            <h3>Programming Languages & Tools</h3>
-            <ul class="tools">
-              <li>
-                <i class="fa-brands fa-html5 list-item" title="HTML5"></i>
-              </li>
-              <li>
-                <i class="fa-brands fa-css3-alt list-item" title="CSS3"></i>
-              </li>
-              <li>
-                <i class="fa-brands fa-js list-item" title="JavaScript"></i>
-              </li>
-              <li>
-                <i class="fa-brands fa-git list-item" title="Git"></i>
-              </li>
-              <li>
-                <i class="fa-solid fa-database list-item" title="MySQL"></i>
-              </li>
-            </ul>
-          </div>
-
-          <div class="main-list">
-            <h3>Soft Skills</h3>
-            <ul class="softskills">
-              <li>
-                <i class="fa-solid fa-check"></i>Problem-solving skills and
-                critical thinking
-              </li>
-              <li><i class="fa-solid fa-check"></i>Communication skills</li>
-              <li>
-                <i class="fa-solid fa-check"></i>People and interpersonal skills
-              </li>
-              <li><i class="fa-solid fa-check"></i>Self-learning</li>
-              <li><i class="fa-solid fa-check"></i>Emotional intelligence</li>
-            </ul>
-          </div>
-
-          <div class="main-list">
-            <h3>Workflow</h3>
-            <ul class="workflow">
-              <li>
-                <i class="fa-solid fa-check"></i>Mobile-First, Responsive Design
-              </li>
-              <li>
-                <i class="fa-solid fa-check"></i>Cross Browser Testing &
-                Debugging
-              </li>
-              <li><i class="fa-solid fa-check"></i>Cross Functional Teams</li>
-              <li>
-                <i class="fa-solid fa-check"></i>Agile Development & Scrum
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section> -->
-
-      <section id="projects" class="main-section">
-        <h2>Projects</h2>
-
-        <div class="content">
-          <h3 class="subheading">Futuro</h3>
-          <p class="text">
-            Sonho em desbravar o mundo desde criança. Acredito que a tecnologia
-            pode proporcionar voos altos. Abre um mundo de possibilidades, nos
-            leva a conhecer pessoas engajadas no mesmo processo de aprendizado e
-            conquista de objetivos mútuos. Quero participar de projetos onde eu
-            possa lapidar minhas habilidades, e também contribuir com a
-            comunidade.
-          </p>
         </div>
       </section>
 
-      <!-- <section id="contact" class="main-section">
-        <h2>Contact</h2>
+      <section id="s-about">
+        <div class="flex-layout">
+          <div class="about">
+            <div class="about-presentation">
+              <div>
+                <img
+                  src="assets/images/renato.jpg"
+                  alt="Foto de Renato Brito"
+                  width="300"
+                />
+              </div>
+              <div class="about-context">
+                <h4>Quem sou</h4>
+                <h2>Renato <span>Brito</span></h2>
+                <h3>Web Developer</h3>
+                <p>
+                  Nascido em Salvador, meu primeiro contato com programação foi
+                  através do banco de dados relacional <strong>MySQL</strong> em
+                  2013. Infelizmente, não pude dar continuidade aos estudos na
+                  época, devido a questões pessoais. Em 2019, ingressei na
+                  faculdade e conquistei uma vaga no curso de
+                  <strong
+                    >Tecnólogo em Análise e Desenvolvimento de Sistemas</strong
+                  >
+                  na <strong>Anhanguera</strong>.
+                </p>
+                <p>
+                  Atualmente, atuo como
+                  <em>autodidata</em>, focando meus esforços no estudo de
+                  diversas linguagens e na aplicação de
+                  <strong>ferramentas relevantes</strong> para o
+                  <strong>Desenvolvimento Web</strong>. Estou comprometido em
+                  aprimorar minhas habilidades e superar os desafios para
+                  alcançar meus objetivos na área.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <div class="content">
+      <section id="s-skills">
+        <div class="flex-layout">
+          <div class="skills">
+            <article class="skills-text">
+              <h2>Skills</h2>
+              <p>*passe o cursor do mouse no card para ler*</p>
+            </article>
+            <div class="skills-card">
+              <article>
+                <img src="assets/images/logos/html5.png" alt="Logo HTML5" />
+              </article>
+              <article>
+                <img src="assets/images/logos/css3.png" alt="Logo CSS3" />
+              </article>
+              <article>
+                <img src="assets/images/logos/javascript.png" alt="Logo JavaScript" />
+              </article>
+              <article>
+                <img src="assets/images/logos/git.png" alt="Logo Git" />
+              </article>
+              <article>
+                <img src="assets/images/logos/mysql.png" alt="Logo MySQL" />
+              </article>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section id="s-projects">
+        <div class="flex-layout">
+          <div class="projects">
+            <article class="projects-text">
+              <h2>Projects</h2>
+            </article>
+            <div class="projects-card">
+              <div class="card">
+                <h3>Music Player</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a
+                  href="https://github.com/rbdev92/music_player"
+                  target="_blank"
+                  >View project</a
+                >
+              </div>
+              <div class="card">
+                <h3>Rocket Pay</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="https://github.com/rbdev92/rocket-pay" target="_blank"
+                  >View project</a
+                >
+              </div>
+              <div class="card">
+                <h3>FazenTech</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="https://github.com/rbdev92/FazenTECH" target="_blank"
+                  >View project</a
+                >
+              </div>
+              <div class="card">
+                <h3>Barbershop</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a
+                  href="https://github.com/rbdev92/fullstackweek-barber"
+                  target="_blank"
+                  >View project</a
+                >
+              </div>
+              <div class="card">
+                <h3>Desafio Bruxo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a
+                  href="https://github.com/rbdev92/DesafioBruxo"
+                  target="_blank"
+                  >View project</a
+                >
+              </div>
+              <div class="card">
+                <h3>Coming soon...</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#" target="_blank">View project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="s-certificates">
+        <div class="flex-layout">
+          <h2>Certificates</h2>
+
+          <div
+            data-iframe-width="150"
+            data-iframe-height="270"
+            data-share-badge-id="5d8c47cc-b86f-493e-b9c8-c9356bd6b706"
+            data-share-badge-host="https://www.credly.com"
+          ></div>
+          <script
+            type="text/javascript"
+            async
+            src="//cdn.credly.com/assets/utilities/embed.js"
+          ></script>
+        </div>
+      </section>
+
+      <footer>
+        <div class="flex-layout">
           <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nam
-            consequuntur veritatis placeat? Quasi non vel illo eum iusto neque
-            quidem placeat doloremque itaque eveniet? Nisi nobis tempore
-            mollitia. Sequi!
+            Copyright &copy; 2024 Renato Brito - Todos os Direitos Reservados.
           </p>
+          <div>
+            <p>Powered by</p>
+            <img src="" alt="" />
+          </div>
         </div>
-      </section> -->
-
-      <!-- <section id="certificates" class="main-section">
-        <h2>Certificates</h2>
-
-        <div class="content">
-          <ul>
-            <li><i class="fa-solid fa-trophy" style="color: #ffd43b"></i></li>
-            <li><i class="fa-solid fa-trophy" style="color: #ffd43b"></i></li>
-            <li><i class="fa-solid fa-trophy" style="color: #ffd43b"></i></li>
-          </ul>
-        </div>
-      </section> -->
+      </footer> -->
     </main>
-
-    <!-- <footer>
-      <p class="text">
-        &copy; Renato Brito 2024 - Todos os Direitos Reservados
-      </p>
-    </footer> -->
   </body>
 </html>
