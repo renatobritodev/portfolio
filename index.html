@@ -14,7 +14,11 @@
     <!-- STYLE -->
     <link rel="stylesheet" href="assets/css/reset.css" />
     <link rel="stylesheet" href="assets/css/variables.css" />
-    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/logos/code.png"
+      type="image/x-icon"
+    />
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,7 +48,9 @@
     <header>
       <div class="flex-layout">
         <nav>
-          <img src="assets/images/code.png" alt="Logo do site" />
+          <a href="#"
+            ><img src="assets/images/logos/code.png" alt="Logo do site"
+          /></a>
           <!-- <div class="mobile-menu"></div> -->
           <ul class="nav-list">
             <li>
@@ -107,7 +113,7 @@
             <div class="about-presentation">
               <div>
                 <img
-                  src="assets/images/renato.jpg"
+                  src="assets/images/renato.png"
                   alt="Foto de Renato Brito"
                   width="300"
                 />
@@ -115,8 +121,8 @@
               <div class="about-context">
                 <h4>Quem sou</h4>
                 <h2>Renato <span>Brito</span></h2>
-                <h3>Web Developer</h3>
-                <p>
+                <h2 class="card_title">Web Developer</h2>
+                <p class="card_text">
                   Nascido em Salvador, meu primeiro contato com programação foi
                   através do banco de dados relacional <strong>MySQL</strong> em
                   2013. Infelizmente, não pude dar continuidade aos estudos na
@@ -157,7 +163,10 @@
                 <img src="assets/images/logos/css3.png" alt="Logo CSS3" />
               </article>
               <article>
-                <img src="assets/images/logos/javascript.png" alt="Logo JavaScript" />
+                <img
+                  src="assets/images/logos/javascript.png"
+                  alt="Logo JavaScript"
+                  />
               </article>
               <article>
                 <img src="assets/images/logos/git.png" alt="Logo Git" />
@@ -172,58 +181,78 @@
 
       <section id="s-projects">
         <div class="flex-layout">
-          <div class="projects">
-            <article class="projects-text">
-              <h2>Projects</h2>
-            </article>
-            <div class="projects-card">
-              <div class="card">
-                <h3>Music Player</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a
-                  href="https://github.com/rbdev92/music_player"
-                  target="_blank"
-                  >View project</a
-                >
-              </div>
-              <div class="card">
-                <h3>Rocket Pay</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="https://github.com/rbdev92/rocket-pay" target="_blank"
-                  >View project</a
-                >
-              </div>
-              <div class="card">
-                <h3>FazenTech</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="https://github.com/rbdev92/FazenTECH" target="_blank"
-                  >View project</a
-                >
-              </div>
-              <div class="card">
-                <h3>Barbershop</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <article class="projects-text">
+            <h2>Projects</h2>
+          </article>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card-content">
+                <h2>Barber Shop</h2>
+                <p>Sistema de agendamento para serviços de barbearias.</p>
                 <a
                   href="https://github.com/rbdev92/fullstackweek-barber"
                   target="_blank"
                   >View project</a
                 >
               </div>
-              <div class="card">
-                <h3>Desafio Bruxo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <h2>Music Player</h2>
+                <p>Spotify Interface Clone</p>
                 <a
-                  href="https://github.com/rbdev92/DesafioBruxo"
+                  href="https://github.com/rbdev92/music_player"
                   target="_blank"
                   >View project</a
                 >
               </div>
-              <div class="card">
-                <h3>Coming soon...</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" target="_blank">View project</a>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <h2>NLW Setup Ignite</h2>
+                <p>
+                  Projeto portfólio desenvolvido pela Rocketseat no evento NLW
+                </p>
+                <a
+                  href="https://github.com/rbdev92/nlw-setup-ignite"
+                  target="_blank"
+                  >View project</a
+                >
               </div>
-            </div>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <h2>Rocket Pay</h2>
+                <p>
+                  O RocketPay é um componente que simula o formulário de
+                  preenchimento de cartão de crédito, onde é possível adicionar
+                  máscara aos inputs e atualizar elementos HTML via JavaScript
+                  DOM.
+                </p>
+                <a href="https://github.com/rbdev92/rocket-pay" target="_blank"
+                  >View project</a
+                >
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <h2>FazenTECH</h2>
+                <p>
+                  Repositório dedicado ao 3º PTG da Faculdade de Análise e
+                  Desenvolvimento de Sistemas.
+                </p>
+                <a href="https://github.com/rbdev92/FazenTECH" target="_blank"
+                  >View project</a
+                >
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <h2>Desafio Bruxo</h2>
+                <p>Coming soon...</p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -253,7 +282,7 @@
           </p>
           <div>
             <p>Powered by</p>
-            <img src="" alt="" />
+            <img src="assets/images/octocat.png" alt="Octocat" width="100" />
           </div>
         </div>
       </footer> -->
