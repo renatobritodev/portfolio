@@ -27,6 +27,7 @@ meus objetivos na área.
 ### Setup
 
 - Laptop Dell Series 3000 - i3 2GB RAM 1T HD
+- Headset Logitech H390
 
 ## Objetivos :dart:
 
