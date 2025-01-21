@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend dedicado ao portfolio",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/renatobritodev/portfolio.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Renato Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatobritodev/portfolio/issues"
+  },
+  "homepage": "https://github.com/renatobritodev/portfolio#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
+

@@ -1,0 +1,49 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10rem 0;
+  gap: 6rem;
+}
+
+.home-container-text {
+  width: 60%;
+}
+
+.home-container-text h1 {
+  font-family: var(--font_inter);
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 500;
+}
+
+.home-container-text span {
+  color: var(--color_yellow);
+}
+
+.social-nav-list {
+  display: flex;
+  gap: 5rem;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.social-nav-list li {
+  font-size: 4rem;
+}
+
+.social-nav-list li a {
+  color: var(--color_gray);
+}
+
+.social-nav-list li a:hover {
+  color: var(--color_yellow);
+}
+
+.fa-brands {
+  transition: transform 300ms ease;
+}
+
+.fa-brands:hover {
+  transform: scale(1.06);
+}

@@ -1,0 +1,9 @@
+:root {
+  --bg_main: #181818;
+  --color_black: #000000;
+  --color_white: #ffffff;
+  --color_yellow: #ff9c08;
+  --color_gray: #999ea7;
+
+  --font_inter: 'Inter', sans-serif;
+}
