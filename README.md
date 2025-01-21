@@ -1,6 +1,6 @@
 # Renato Brito / Web Developer 👋🏽
 
-![Portfolio Home](assets/images/home.png)
+![Portfolio Home](frontend/public/img/other/home.png)
 
 ## Sobre
 
@@ -48,26 +48,11 @@ comunidade.
 ### Estrutura de pastas
 
 portfolio/
-├── assets/
-│   ├── css/
-│   │   └── styles.css         # Arquivos de estilo (CSS)
-│   ├── js/
-│   │   └── script.js          # Arquivos de script (JavaScript)
-│   ├── img/
-│   │   ├── logo.png           # Logotipo ou imagens gerais
-│   │   ├── projetos/          # Subpasta para imagens dos projetos
-│   │   └── outros/            # Outras imagens (ex.: ícones, etc.)
-│   └── fonts/
-│       └── custom-font.woff2  # Fontes personalizadas
-├── index.html                 # Página inicial (Home)
-├── about.html                 # Página "Sobre"
-├── projects.html              # Página "Projetos"
-├── blog.html                  # Página do Blog (opcional)
-├── contact.html               # Página "Contato"
-└── README.md                  # Documentação do projeto### Fontes
+├── backend/
+├── frontend/
+|-- README.md
 
 [Google Fonts](https://fonts.google.com/)
-
 `Inter, sans-serif;`
 
 ### Cores
@@ -77,5 +62,3 @@ portfolio/
 `White: #ffffff`
 `Gray: #999ea7`
 `Mustard Yellow: #ff9c08`
-
-<!-- https://adevait.com/blog/workplace/7-soft-skills-developers-2019# -->
