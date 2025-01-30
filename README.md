@@ -1,28 +1,24 @@
-# Renato Brito / Web Developer 👋🏽
+# Portfólio / Renato Brito 👋🏽
 
-![Portfolio Home](frontend/public/img/other/home.png)
+![Portfolio Home](frontend/public/img/other/homepage.jpeg)
 
 ## Sobre
 
-Nascido em Salvador, meu primeiro contato com programação foi
-através do banco de dados relacional **MySQL** em 2013. Infelizmente, não pude dar continuidade aos estudos na
-época, devido a questões pessoais. Em 2019, ingressei na faculdade
-e conquistei uma vaga no curso de
-**Tecnólogo em Análise e Desenvolvimento de Sistemas**
-na **Anhanguera**. Atualmente, atuo como **autodidata**,
-focando meus esforços no estudo de diversas linguagens e na
-aplicação de **ferramentas relevantes** para o
-**Desenvolvimento Web**. Estou comprometido em
-aprimorar minhas habilidades e superar os desafios para alcançar
-meus objetivos na área.
+Sou um entusiasta de tecnologia e autodidata apaixonado por **desenvolvimento web**. Meu primeiro contato com programação foi em 2019, quando ingressei na faculdade de **Análise e Desenvolvimento de Sistemas** pela Anhanguera. Infelizmente não pude concluir o curso.
 
-### Linguagens
+Atualmente, me especializo em JavaScript e suas principais tecnologias, como **Node.js**, **React.js** e **Next.js**, desenvolvendo soluções web modernas e funcionais. Meu foco está em criar interfaces intuitivas e experiências digitais que façam a diferença para os **usuários**. Meu objetivo é me tornar **Desenvolvedor Full Stack**. Quero colaborar com projetos impactantes e inovadores, crescer profissionalmente enquanto busco aprender continuamente, expandir meu portfólio e transformar ideias em realidade por meio da tecnologia.
 
-- HTML, CSS, JavaScript
+### Frontend
+
+- HTML, CSS, JavaScript, TypeScript, React
+
+### Backend
+
+- Node.js, MongoDB, PostgreSQL
 
 ### Ferramentas
 
-- Visual Studio Code, Cmder, Notion
+- Visual Studio Code, Cmder
 
 ### Setup
 
@@ -52,13 +48,18 @@ portfolio/
 ├── frontend/
 |-- README.md
 
-[Google Fonts](https://fonts.google.com/)
-`Inter, sans-serif;`
+### Fonte
+
+[Google Fonts](https://fonts.google.com/specimen/Poppins)
+`Poppins, serif;`
 
 ### Cores
 
-`Background: #181818`
-`Black: #000000`
-`White: #ffffff`
-`Gray: #999ea7`
-`Mustard Yellow: #ff9c08`
+`--black: #121212;`
+`--white: #f1f1f1;`
+`--gray: #1e1e1e;`
+`--orange: #ff9800;`
+`--red-light: #f8d7da;`
+`--red-dark: #842029;`
+`--green-light: #d1e7dd;`
+`--green-dark: #0f5132;`
