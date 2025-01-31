@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,19 +11,10 @@
       title="Renato Brito Web Developer"
       content="Desenvolvedor web, Betim, Contagem, Belo Horizonte, Minas Gerais, São Paulo, Salvador, Bahia"
     />
-    <title>Renato Brito / Web Developer</title>
+    <title>Porfólio / Renato Brito</title>
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
-    <!-- STYLE -->
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-      rel="stylesheet"
-    />
     <!-- FONT AWESOME -->
     <link
       rel="stylesheet"
@@ -32,260 +23,184 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- COMPONENTS -->
-    <link rel="stylesheet" href="css/components/breakpoints.css" />
-    <link rel="stylesheet" href="css/components/flex-layout.css" />
-    <link rel="stylesheet" href="css/components/menu.css" />
-    <link rel="stylesheet" href="css/components/home.css" />
-    <link rel="stylesheet" href="css/components/about.css" />
-    <link rel="stylesheet" href="css/components/skills.css" />
-    <link rel="stylesheet" href="css/components/projects.css" />
   </head>
   <body>
     <header>
+      <a href="#"
+        ><img
+          src="img/other/logo-white-orange.svg"
+          alt="Logo RB Dev"
+          title="Renato Brito Desenvolvedor Web"
+          width="100"
+          heigth="100"
+      /></a>
       <nav>
-        <div class="nav-center">
-          <!-- nav header -->
-          <div class="nav-header">
-            <img src="logo.png" class="logo" alt="logo" />
-            <button class="nav-toggle">
-              <i class="fas fa-bars"></i>
-            </button>
-          </div>
-          <!-- links -->
-          <ul class="links">
-            <li>
-              <a href="index.html">home</a>
-            </li>
-            <li>
-              <a href="about.html">about</a>
-            </li>
-            <li>
-              <a href="projects.html">projects</a>
-            </li>
-            <li>
-              <a href="blog.html">blog</a>
-            </li>
-            <li>
-              <a href="contact.html">contact</a>
-            </li>
-          </ul>
-          <!-- social media -->
-          <ul class="social-icons">
-            <li>
-              <a href="https://github.com/renatobritodev" target="_blank"
-                ><i class="fa-brands fa-github" title="Github"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/renatobrito.dev/"
-                target="_blank"
-                ><i class="fa-brands fa-instagram" title="Instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/renatobritodev"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin" title="Linkedin"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li><a href="#about">about</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#blog">blog</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
       </nav>
     </header>
-
-    <main>
-      <section id="s-home">
-        <div class="flex-layout">
-          <div class="home">
-            <div class="home-container-text">
-              <h1>
-                Amante da tecnologia e desenvolvimento web, busco projetos que
-                me permitam contribuir positivamente para a
-                <span>comunidade</span>.
-              </h1>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="s-about">
-        <div class="flex-layout">
-          <div class="about">
-            <div class="about-presentation">
-              <div>
-                <img
-                  src="https://avatars.githubusercontent.com/u/93177880?v=4"
-                  alt="Foto de Renato Brito"
-                  width="200"
-                />
-              </div>
-              <div class="about-context">
-                <h4>Quem sou</h4>
-                <h2>Renato <span>Brito</span></h2>
-                <h2 class="card_title">Web Developer</h2>
-                <p class="card_text">
-                  Nascido em Salvador, meu primeiro contato com programação foi
-                  através do banco de dados relacional <strong>MySQL</strong> em
-                  2013. Infelizmente, não pude dar continuidade aos estudos na
-                  época, devido a questões pessoais. Em 2019, ingressei na
-                  faculdade e conquistei uma vaga no curso de
-                  <strong
-                    >Tecnólogo em Análise e Desenvolvimento de Sistemas</strong
-                  >
-                  na <strong>Anhanguera</strong>.
-                </p>
-                <p>
-                  Atualmente, atuo como
-                  <em>autodidata</em>, focando meus esforços no estudo de
-                  diversas linguagens e na aplicação de
-                  <strong>ferramentas relevantes</strong> para o
-                  <strong>Desenvolvimento Web</strong>. Estou comprometido em
-                  aprimorar minhas habilidades e superar os desafios para
-                  alcançar meus objetivos na área.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="s-skills">
-        <div class="flex-layout">
-          <div class="skills">
-            <article class="skills-text">
-              <h2>Skills</h2>
-              <p>*passe o cursor do mouse no card para ler*</p>
-            </article>
-            <div class="skills-card">
-              <article>
-                <img src="img/other/html5.png" alt="Logo HTML5" />
-              </article>
-              <article>
-                <img src="img/other/css3.png" alt="Logo CSS3" />
-              </article>
-              <article>
-                <img src="img/other/javascript.png" alt="Logo JavaScript" />
-              </article>
-              <article>
-                <img src="img/other/git.png" alt="Logo Git" />
-              </article>
-              <article>
-                <img src="img/other/mysql.png" alt="Logo MySQL" />
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="s-projects">
-        <div class="flex-layout">
-          <article class="projects-text">
-            <h2>Projects</h2>
-          </article>
-
-          <div class="cards">
-            <article class="card">
-              <div class="card-content">
-                <h2>Barber Shop</h2>
-                <p>Sistema de agendamento para serviços de barbearias.</p>
-                <a
-                  href="https://github.com/renatobritodev/fullstackweek-barber"
-                  target="_blank"
-                  >View project</a
-                >
-              </div>
-            </article>
-            <article class="card">
-              <div class="card-content">
-                <h2>Music Player</h2>
-                <p>Spotify Interface Clone</p>
-                <a
-                  href="https://github.com/renatobritodev/music_player"
-                  target="_blank"
-                  >View project</a
-                >
-              </div>
-            </article>
-            <article class="card">
-              <div class="card-content">
-                <h2>NLW Setup Ignite</h2>
-                <p>
-                  Projeto portfólio desenvolvido junto com a Rocketseat no
-                  evento NLW
-                </p>
-                <a
-                  href="https://github.com/renatobritodev/nlw-setup-ignite"
-                  target="_blank"
-                  >View project</a
-                >
-              </div>
-            </article>
-            <article class="card">
-              <div class="card-content">
-                <h2>Rocket Pay</h2>
-                <p>
-                  O RocketPay é um componente que simula o formulário de
-                  preenchimento de cartão de crédito, onde é possível adicionar
-                  máscara aos inputs e atualizar elementos HTML via JavaScript
-                  DOM.
-                </p>
-                <a
-                  href="https://github.com/renatobritodev/rocket-pay"
-                  target="_blank"
-                  >View project</a
-                >
-              </div>
-            </article>
-            <article class="card">
-              <div class="card-content">
-                <h2>FazenTECH</h2>
-                <p>
-                  Repositório dedicado ao 3º PTG da Faculdade de Análise e
-                  Desenvolvimento de Sistemas.
-                </p>
-                <a
-                  href="https://github.com/renatobritodev/FazenTECH"
-                  target="_blank"
-                  >View project</a
-                >
-              </div>
-            </article>
-            <article class="card">
-              <div class="card-content">
-                <h2>FSW Food</h2>
-                <p>Coming soon...</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="s-certificates">
-        <div class="flex-layout">
-          <h2>Certificates</h2>
-
-          <div
-            data-iframe-width="150"
-            data-iframe-height="270"
-            data-share-badge-id="5d8c47cc-b86f-493e-b9c8-c9356bd6b706"
-            data-share-badge-host="https://www.credly.com"
-          ></div>
-          <script
-            type="text/javascript"
-            async
-            src="//cdn.credly.com/assets/utilities/embed.js"
-          ></script>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="flex-layout">
-        <p class="text">&copy; 2025 | Renato Brito</p>
+    <section id="hero">
+      <h1>renato brito 👨🏾‍💻</h1>
+      <p>
+        Sou um apaixonado por tecnologia e autodidata no mundo do
+        desenvolvimento web.
+      </p>
+      <div class="social">
+        <ul class="social-icons">
+          <li>
+            <a href="https://github.com/renatobritodev" target="_blank"
+              ><i class="fa-brands fa-github" title="Github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/renatobritodev" target="_blank"
+              ><i class="fa-brands fa-linkedin" title="Linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/renatobrito.dev/" target="_blank"
+              ><i class="fa-brands fa-instagram" title="Instagram"></i
+            ></a>
+          </li>
+        </ul>
       </div>
+    </section>
+
+    <section id="about">
+      <div class="subtitle">
+        <h2>about me</h2>
+      </div>
+      <div class="about-content">
+        <img
+          src="img/other/avatar.png"
+          alt="Foto de Renato Brito"
+          width="200"
+          height="200"
+        />
+        <p>
+          Sou um apaixonado por tecnologia e autodidata no mundo do
+          desenvolvimento web. Meu primeiro contato com programação aconteceu em
+          2019, quando iniciei minha graduação em Análise e Desenvolvimento de
+          Sistemas na Anhanguera. Apesar de não ter concluído o curso, minha
+          vontade de aprender nunca parou, e desde então venho aprimorando
+          minhas habilidades por conta própria.
+        </p>
+        <p>
+          Hoje, especializo-me em JavaScript e suas principais tecnologias, como
+          Node.js, React.js e Next.js, criando soluções web modernas, escaláveis
+          e funcionais. Meu foco é desenvolver interfaces intuitivas e
+          experiências digitais envolventes que realmente agreguem valor aos
+          usuários.
+        </p>
+
+        <p>
+          Meu objetivo é me tornar um Desenvolvedor Full Stack e trabalhar em
+          projetos inovadores e impactantes. Estou sempre em busca de novos
+          desafios, ampliando meu portfólio e transformando ideias em soluções
+          tecnológicas eficientes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+      <div class="subtitle">
+        <h2>services</h2>
+      </div>
+      <div class="service-group">
+        <div class="service">SERVICE 1</div>
+        <div class="service">SERVICE 2</div>
+        <div class="service">SERVICE 3</div>
+        <div class="service">SERVICE 4</div>
+      </div>
+      <figure>
+        <div class="subtitle">
+          <h2>skills</h2>
+          <small>passe o mouse sobre o card para ler</small>
+        </div>
+        <img src="img/techs/html5.svg" alt="Hyper Text Markup Language" />
+        <img src="img/techs/css.svg" alt="Cascade Style Sheet" />
+        <img src="img/techs/js.svg" alt="JavaScript" />
+        <img src="img/techs/git.svg" alt="Git - Controle de Versionamento" />
+        <img src="img/techs/postgresql.svg" alt="PostgreSQL - Banco de Dados" />
+        <img src="img/techs/mysql.svg" alt="MySQL - Banco de Dados" />
+        <img src="img/techs/nodejs.svg" alt="Node.js" />
+        <img src="img/techs/reactjs.svg" alt="React.js" />
+      </figure>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="subtitle">
+        <h2>projects</h2>
+      </div>
+      <div class="project-card">
+        <h3>Form Validation</h3>
+        <p>
+          Formulário desenvolvido utilizando as tecnologias HTML, CSS e
+          JavaScript.
+        </p>
+        <a href="#" target="_blank">Ver mais</a>
+      </div>
+      <div class="project-card">
+        <h3>Form Validation</h3>
+        <p>
+          Formulário desenvolvido utilizando as tecnologias HTML, CSS e
+          JavaScript.
+        </p>
+        <a href="#" target="_blank">Ver mais</a>
+      </div>
+      <div class="project-card">
+        <h3>Form Validation</h3>
+        <p>
+          Formulário desenvolvido utilizando as tecnologias HTML, CSS e
+          JavaScript.
+        </p>
+        <a href="#" target="_blank">Ver mais</a>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+      <div class="subtitle">
+        <h2>blog</h2>
+      </div>
+      <div class="blog-post">
+        <h3>JavaScript</h3>
+        <p>Pequeno resumo do artigo.</p>
+        <a href="#">Leia mais</a>
+      </div>
+      <div class="blog-post">
+        <h3>HTML</h3>
+        <p>Pequeno resumo do artigo.</p>
+        <a href="#">Leia mais</a>
+      </div>
+      <div class="blog-post">
+        <h3>CSS</h3>
+        <p>Pequeno resumo do artigo.</p>
+        <a href="#">Leia mais</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>contact</h2>
+      <form>
+        <input type="text" placeholder="Seu Nome" required />
+        <input type="email" placeholder="Seu Email" required />
+        <textarea placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&COPY; 2025 - Made with ❤️ by Renato Brito</p>
     </footer>
 
     <script src="js/index.js"></script>
