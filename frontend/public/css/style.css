@@ -141,35 +141,37 @@ section {
 .about-content img {
   float: left;
   margin: 0 1rem 0 0;
-  box-shadow: 2px 2px 1px var(--orange);
+  box-shadow: 0 0 8px var(--orange);
   border-radius: var(--radius);
 }
 
-#services {
+.service-group {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  padding: 2rem 0;
+  gap: 2rem;
+}
+
+.service,
+.tech {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 1rem 0;
+  border-radius: var(--radius);
+  background-color: var(--secondary-bgColor);
 }
 
-.service-group {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  margin: 2rem 0;
+.service-item {
+  padding: 10px 0;
 }
 
-.service {
-  margin: 1rem 0;
-  width: 50px;
-  height: 50px;
-  background: var(--secondary-bgColor);
-}
-
-.tech {
-  display: block;
-  background: var(--primary-bgColor);
+.service-item i {
+  color: var(--orange);
+  margin-right: 4px;
 }
 
 .project-card,
