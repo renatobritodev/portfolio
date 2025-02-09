@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  width: auto;
+}
+
+.card-item {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: var(--radius);
+  background: var(--secondary-bgColor);
+  padding: 2rem;
+  height: 200px;
+  width: auto;
+  border: 1px transparent;
+}
+
+.card-item:hover {
+  border-color: var(--orange);
+}
+
+.card-item a {
+  text-decoration: none;
+  color: var(--orange);
+}
